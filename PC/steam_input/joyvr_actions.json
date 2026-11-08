@@ -1,0 +1,68 @@
+{
+  "actions": [
+    {
+      "name": "/actions/joyvr/in/trigger_use",
+      "type": "boolean",
+      "requirement": "optional"
+    },
+    {
+      "name": "/actions/joyvr/in/grip_grab",
+      "type": "boolean",
+      "requirement": "optional"
+    },
+    {
+      "name": "/actions/joyvr/in/menu",
+      "type": "boolean",
+      "requirement": "optional"
+    },
+    {
+      "name": "/actions/joyvr/in/trackpad_move",
+      "type": "vector2",
+      "requirement": "optional"
+    },
+    {
+      "name": "/actions/joyvr/out/haptic",
+      "type": "vibration",
+      "requirement": "optional"
+    }
+  ],
+  "action_sets": [
+    {
+      "name": "/actions/joyvr",
+      "usage": "leftright"
+    }
+  ],
+  "default_bindings": [
+    {
+      "controller_type": "vive_controller",
+      "binding_url": "joyvr_bindings_vive.json"
+    }
+  ],
+  "localization": [
+    {
+      "language_tag": "en_US",
+      "key": "/actions/joyvr",
+      "value": "Crab the VR"
+    },
+    {
+      "language_tag": "en_US",
+      "key": "/actions/joyvr/in/trigger_use",
+      "value": "Use"
+    },
+    {
+      "language_tag": "en_US",
+      "key": "/actions/joyvr/in/grip_grab",
+      "value": "Grab"
+    },
+    {
+      "language_tag": "en_US",
+      "key": "/actions/joyvr/in/menu",
+      "value": "Menu"
+    },
+    {
+      "language_tag": "en_US",
+      "key": "/actions/joyvr/in/trackpad_move",
+      "value": "Move"
+    }
+  ]
+}

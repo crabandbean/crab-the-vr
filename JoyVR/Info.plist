@@ -2,6 +2,8 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>CFBundleDisplayName</key>
+	<string>Crab the VR</string>
 	<key>CFBundleExecutable</key>
 	<string>$(EXECUTABLE_NAME)</string>
 	<key>CFBundleIdentifier</key>
@@ -14,6 +16,12 @@
 	<string>1.0</string>
 	<key>CFBundleVersion</key>
 	<string>1</string>
+	<key>NSCameraUsageDescription</key>
+	<string>Crab the VR uses the camera for 6DoF head tracking: it watches the room so your head's position as well as its rotation reaches your PC.</string>
+	<key>NSLocalNetworkUsageDescription</key>
+	<string>Crab the VR uses your local network to find the PC running SteamVR and to stream the picture to your iPhone.</string>
+	<key>NSMotionUsageDescription</key>
+	<string>Crab the VR reads the motion sensors to track your head while you are in VR.</string>
 	<key>UIDeviceFamily</key>
 	<array>
 		<integer>1</integer>
@@ -21,6 +29,18 @@
 	</array>
 	<key>UILaunchScreen</key>
 	<dict/>
+	<key>UIFileSharingEnabled</key>
+	<true/>
+	<key>LSSupportsOpeningDocumentsInPlace</key>
+	<true/>
+	<key>UIRequiresFullScreen</key>
+	<true/>
+	<key>UISupportedInterfaceOrientations</key>
+	<array>
+		<string>UIInterfaceOrientationPortrait</string>
+		<string>UIInterfaceOrientationLandscapeLeft</string>
+		<string>UIInterfaceOrientationLandscapeRight</string>
+	</array>
 	<key>UISupportedInterfaceOrientations~ipad</key>
 	<array>
 		<string>UIInterfaceOrientationLandscapeLeft</string>

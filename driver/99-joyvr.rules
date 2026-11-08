@@ -1,0 +1,2 @@
+# Let members of the "input" group talk to the module without root.
+KERNEL=="joyvr", SUBSYSTEM=="misc", MODE="0660", GROUP="input", TAG+="uaccess"
